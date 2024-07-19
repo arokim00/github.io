@@ -39,6 +39,8 @@ GEM
       logger
     faraday-net_http (3.1.0)
       net-http
+    faraday-retry (2.2.1)
+      faraday (~> 2.0)
     ffi (1.17.0-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
@@ -269,6 +271,7 @@ PLATFORMS
 
 DEPENDENCIES
   csv (~> 3.1)
+  faraday-retry
   github-pages (~> 231)
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
